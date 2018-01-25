@@ -25,3 +25,14 @@ node cli.js -o csv MyOrganization
 ## Authentication
 
 To use a [personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) for authentication, set it in your GITHUB_ACCESS_TOKEN environment variable before running this script.
+
+Examples:
+
+```
+export GITHUB_ACCESS_TOKEN=abc123
+node cli.js MyOrganization
+```
+
+```
+GITHUB_ACCESS_TOKEN=abc123 node cli.js MyOrganization
+```
