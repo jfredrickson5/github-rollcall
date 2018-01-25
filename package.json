@@ -2,10 +2,9 @@
   "name": "github-rollcall",
   "version": "1.0.0",
   "description": "Lists GitHub organization members",
-  "main": "cli.js",
+  "main": "rollcall.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node cli.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "gh-rollcall": "cli.js"
@@ -13,6 +12,7 @@
   "author": "Jeff Fredrickson <jeffrey.fredrickson@gsa.gov>",
   "license": "CC0-1.0",
   "dependencies": {
+    "commander": "^2.13.0",
     "graphql-request": "^1.4.1"
   }
 }
